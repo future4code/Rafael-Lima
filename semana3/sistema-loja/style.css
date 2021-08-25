@@ -1,0 +1,34 @@
+
+body {
+    background-color: rgb(250, 209, 240);
+}
+.estilizacao-topo {
+    background-color: cornflowerblue;
+    border: 4px solid rgb(71, 122, 216);
+}
+.espacamento-topo{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.texto-a-direita {
+    text-align:right;
+    margin-right: 25px;
+    
+}
+
+.centraliza-topo {
+    text-align: center;
+    margin: 20px;
+    border: 2px solid rgb(171, 106, 231);
+    padding:20px;
+}
+.logo-rodape {
+    margin-top: 25%;
+    width:auto;
+    text-align:center;
+    padding:5px;
+}
+img {
+    max-width:2%;
+            height:auto;
+}
