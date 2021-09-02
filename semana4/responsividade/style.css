@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: lightslategray;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#divBusca{
+    /* border: solid black 1px; */
+    border-radius: 15px;
+    width: 200px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.logo-header{
+    margin: 3px 8px;
+    height: 70px;
+}
+
+.layout-videos{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    grid-template-columns: repeat(4,1fr);
+    height: 100%;
+
+}
+
+.video-card{
+    margin: 10px;
+    background-color: rgb(223, 210, 204);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px;
+    border-radius: 8px;
+    height: 40vh;
+    /* max-width: 25vw; */
+}
+
+.thumb-video{
+    display: flex;
+    
+    width: 90%;
+
+}
+
+footer{
+    display: flex;
+    background-color: lightslategray;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-device-width:200px) and (max-device-width:900px ) {
+    .layout-videos{
+        /* position: relative; */
+        grid-template-columns: 1fr;
+        justify-items: center;
+
+    }
+    header{
+        margin: 0;
+        position: fixed;
+    }
+    
+    footer{
+        position: relative;
+    }
+    .video-card{
+        width: 300px;
+    }
+}
